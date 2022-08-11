@@ -1,0 +1,72 @@
+@import '../../header/style.scss';
+
+.P-product{ 
+    width: 325px;
+    height: 450px;
+    margin:10px; 
+    background-color: white;
+    margin-bottom: 40px;
+    transition: 0.5s;
+   
+   
+    &:hover{
+        box-shadow: 0 0 5px 5px rgba(41, 41, 41, 0.2);
+        
+    }
+    .overflow{
+        width: 325px;
+        height: 325px;
+        position: relative;
+        overflow: hidden;
+        .P-product-image{
+            &:hover{ 
+                transform: scale(1.2);
+                &::after{
+                 content: '';
+                 width: 325px;
+                 height:325px ;
+                 background-color: rgba(255, 255, 255, 0.7);
+                 position: absolute;
+                 z-index: 4;
+                 left: 0;
+                 top: 0;
+                }
+        }
+    }
+}
+.P-product-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 325px;
+    height: 325px;
+    transition: 0.5s;
+       
+
+    }
+}
+.P-product-content{
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+  
+    p{
+        font-size:1.25rem;
+        font-weight: 500; 
+       }
+       h3{
+        font-size:1rem;
+        font-weight: 500;
+        &:hover{
+            cursor: pointer;
+            color:$yellow;
+        }
+       }
+   
+
+}
+.full-products{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+}

@@ -1,0 +1,47 @@
+.P-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.P-full-icons{
+    display: flex;
+    margin:20px;
+}
+
+.P-one-icon{
+    display:flex;
+    margin:30px;
+    align-items: center;
+    background-color: white;
+    h2{
+      margin:35px;
+      margin-left: 10px;
+    }
+    div{
+        margin:15px;
+        margin-right: 0;
+        
+    }
+
+}
+.icon-done{
+   font-size: 50px;
+   font-weight: 700;
+   color:#FFD333;
+    
+}
+.icon-local_shiping{
+    font-size: 50px;
+   font-weight: 700;
+   color:#FFD333;
+}
+.icon-syns{
+    font-size: 50px;
+   font-weight: 700;
+   color:#FFD333;
+}
+.icon-call{
+    font-size: 50px;
+   font-weight: 700;
+   color:#FFD333;
+}

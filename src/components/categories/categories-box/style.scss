@@ -1,0 +1,54 @@
+@import '../../header/style.scss';
+
+.P-categories{
+    display: flex;
+    width: 325px;
+    height: 100px;
+    margin:12px;
+    background-color: white;
+    transition: 0.5s;
+    &:hover{
+        background-color: $yellow;
+        cursor: pointer;
+
+        .P-categories-image{
+         transform: scale(1.2) rotate(10deg);
+
+        }
+       
+    }
+
+}
+.P-categories-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+
+}
+.P-categories-content{
+   
+    padding-left: 15px;
+    width: 225px;
+    padding-bottom: 10px;
+    h4{
+      font-size: 1rem;
+      color:#3D464D;
+      font-weight: 500px;
+      margin-bottom: 0;
+    }
+    p{
+        font-size: 12px;
+    }
+    
+}
+.full-categories{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+}
+.categories-overflow{
+    overflow: hidden;
+}

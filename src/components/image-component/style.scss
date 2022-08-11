@@ -1,0 +1,49 @@
+@import '../../pages/home/style.scss';
+
+.P-special{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+    margin-bottom: 30px;
+    position: relative;
+   
+    
+    
+    &::after{
+        content: '';
+        width: 100%;
+        height:100%;
+        background-color: $afterColor;
+        position: absolute;
+        z-index: 4;
+        left: 0;
+        top: 0;
+
+     }
+     
+}
+.P-content{
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    h1{
+        color:white;
+    }
+    button{
+        background-color: #FFD333;
+        color:#3D464D;
+        width: 100px;
+        height: 30px;
+        border:none;
+        cursor: pointer;
+        &:hover{
+            background-color:#d8b229 ;
+
+        }
+    }
+
+}

@@ -1,0 +1,53 @@
+@import '../header/style.scss';
+
+.F-div{
+    background-color:$dark ;
+    margin-bottom: 0;
+}
+
+.F-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    color:white;
+    
+}
+.F-info{
+    width: 325px;
+    height: 250px;
+    margin:20px;
+  li{
+        margin:10px;
+    }
+    a{
+        color:white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+            
+        }
+    }
+}
+.F-under{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dee2e6;
+    margin:30px; 
+    margin-bottom: 0;
+    p{
+        color:white;
+        margin:20px;
+    }
+
+}
+.F-payments{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 20px;
+    margin:20px;
+}
+
